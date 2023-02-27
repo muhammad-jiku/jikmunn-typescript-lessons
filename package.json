@@ -1,4 +1,22 @@
 {
+  "name": "1.basic-ts",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammad-jiku/jikmunn-typescript-lessons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammad-jiku/jikmunn-typescript-lessons/issues"
+  },
+  "homepage": "https://github.com/muhammad-jiku/jikmunn-typescript-lessons#readme",
   "devDependencies": {
     "typescript": "^4.9.5"
   }
