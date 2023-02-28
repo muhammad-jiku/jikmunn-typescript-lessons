@@ -4,7 +4,10 @@ interface IUserFormatter {
 }
 
 export class User implements IUserFormatter {
+  //  if private access modifier did not use. then, fullName: string, age: number
+
   constructor(private fullName: string, private age: number) {}
+  //  if private access modifier did not use. then, {vthis.fullName = fullName; this.age = age;}
 
   formatUser = () => {
     return `name: ${this.fullName}, age: ${this.age}`;
